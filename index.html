@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <!--[if lt IE 9]><html class="no-js lt-ie9" lang="en" dir="ltr"><![endif]-->
-<!--[if gt IE 8]><!-->
+<!--[if gt IE 8]>
+<!-->
 <html class="no-js" lang="en" dir="ltr">
 <!--<![endif]-->
 
@@ -30,6 +31,37 @@
 		<![endif]-->
     <noscript>
         <link rel="stylesheet" href="./wet-boew/css/noscript.min.css" /></noscript>
+    <style>
+        
+        .cover-page{
+            background:#1F3169;
+            display: block;
+            height:69vh;
+            width:100%;
+            background-image: url(./images/1_cover_main-illustration.svg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 90vh;
+            border-radius: 1em;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.25);
+        }
+        figcaption {
+            font-size: 14px;
+            line-height: 1.25;
+            margin-bottom: 2em;
+            margin-top: 1.5em;
+        }
+
+        .box-42 {
+            border: 8px solid #4A9DD6;
+            padding: 1em 1em 0;
+            border-radius: 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+        }
+    </style>
 </head>
 
 <body vocab="http://schema.org/" typeof="WebPage">
@@ -111,13 +143,50 @@
         <p><strong>By the <a href="https://www.canada.ca/impact-and-innovation" target="_blank">Impact &amp; Innovation Unit</a></strong></p>
 
 
+        <div class="cover-page"></div>
 
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col-sm-4 col-sm-push-8">
 
-                <!-- 1. Foreword -->
-                <section id="foreword">
-                    <h2>Foreword</h2>
+                <!-- table of contents -->
+                <nav id="table-contents" class="mrgn-tp-xl">
+                    <ul class="list-unstyled">
+                        <li><a href="#foreword">Foreword</a></li>
+                        <li><a href="#ourImpact">Our Impact</a></li>
+                        <li><a href="#aboutUs">1. About Us</a>
+                            <ul>
+                                <li><a href="#iiu">1.1 The Impact and Innovation Unit</a></li>
+                                <li><a href="#fellowship">1.2 The Fellowship Program</a></li>
+                                <li><a href="#advisoryCommittee">1.3 The Advisory Committee</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#whatWeDo">2. What We Do</a></li>
+                        <li><a href="#newApproaches">3. New Approaches to Big Issues</a>
+                            <ul>
+                                <li><a href="#payingForSuccess">3.1 Paying for Success</a>
+                                    <ul>
+                                        <li><a href="#flagship">Flagship Challenge Prizes</a></li>
+                                        <li><a href="#newPartnerships">New Partnerships Addressing Complex Issues</a></li>
+                                        <li><a href="#innovativeFinance">Supporting New Approaches with our Innovative Finance Fellows</a></li>
+                                        <li><a href="#webPlatform"></a>Impact Canada Web Platform</li>
+                                    </ul>
+
+                                </li>
+                                <li><a href="#improvingPolicies">3.2 Improving Policies and Services with Behavioural Insights</a></li>
+                                <li><a href="#measuringImpact">3.3 Measuring Impact by Design</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#lookingAhead">4. Looking Ahead</a></li>
+                        <li><a href="#thankYou">5. Thank You</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+            <div class="col-sm-8 col-sm-pull-4">
+
+                <!-- Foreword -->
+                <section>
+                    <h2 id="foreword">Foreword</h2>
                     <p>The Impact and Innovation Unit is made up of highly skilled, dedicated public servants striving to deliver the best policies and programs, by taking a “mission-driven” approach to transforming government. Our central hypothesis is that by being relentless in our focus on outcomes-based methods and working horizontally across government and sectors, we can achieve better, measurable outcomes for Canadians. For those who work with and within government, you know that’s not always the way we work.</p>
                     <p>We understand that we’re stewards of public funds and the responsibility that carries. As such, it behooves us to modernize our policy and program approaches so that they are focused on achieving our collective outcomes, demonstrate value and meaningful impact. To this end, we’ve continued to take an active role in the global movement of governments that are working to mainstream methods like challenge prizes, behavioural insights, pay-for-performance and pay-for-success funding models. The promise of these methods is that it focuses efforts not on the process or outputs of a program, but rather on clearly defining the sought after outcome and ensuring there is a multisectoral approach to achieving it. </p>
                     <p>These approaches require new partnership models where government, not-for profit and private sectors need to work very differently together. We strongly believe that robust engagement, co-design, and co-development is the best path to get us there. </p>
@@ -142,66 +211,45 @@
                 </section>
             </div>
 
-            <div class="col-sm-4">
 
-                <!-- table of contents -->
-                <nav id="table-contents">
-                    <ol>
-                        <li><a href="#foreword">Foreword</a></li>
-                        <li><a href="#ourImpact">Our Impact</a></li>
-                        <li><a href="#aboutUs">About Us</a>
-                            <ul>
-                                <li><a href="#iiu">The Impact and Innovation Unit</a></li>
-                                <li><a href="#fellowship">The Fellowship Program</a></li>
-                                <li><a href="#advisoryCommittee">The Advisory Committee</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#whatWeDo">What We Do</a></li>
-                        <li><a href="#newApproaches">New Approaches to Big Issues</a>
-                            <ul>
-                                <li><a href="#payingForSuccess">Paying for Success</a></li>
-                                <li><a href="#improvingPolicies">Improving Policies and Services with Behavioural Insights</a></li>
-                                <li><a href="#measuringImpact">Measuring Impact by Design</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#lookingAhead">Looking Ahead</a></li>
-                        <li><a href="#thankYou">Thank You</a></li>
-                    </ol>
-                </nav>
-
-            </div>
         </div>
 
         <!-- Our Impact -->
-        <section id="ourImpact">
-            <h2 class="mrgn-bttm-xl">Our Impact</h2>
+        <section>
+            <h2 class="mrgn-bttm-xl" id="ourImpact">Our Impact</h2>
             <ul class="media-list">
-                <li class="media"> <a class="pull-left" href="#"><img class="media-object" src="./images/icons/6_1.svg" alt="icon of a growing plant" style="width:120px" /></a>
+                <li class="media">
+                    <p class="pull-left mrgn-rght-md mrgn-rght-md"><img class="media-object" src="./images/icons/6_1.svg" alt="icon of a growing plant" style="width:120px" /></p>
                     <div class="media-body">
                         <p>Addressing innovation market gaps to stimulate private sector engagement and commercialization of innovative products, processes, and services in areas where there is great potential for applying Canadian ingenuity and improving social, economic, and/or environmental outcomes. For example, supporting Natural Resource Canada’s <a href="#!">“Crush It Challenge”</a>.</p>
                     </div>
                 </li>
-                <li class="media"> <a class="pull-left" href="#"><img class="media-object" src="./images/icons/6_2.svg" alt="icon of a graduation hat" style="width:120px" /></a>
+                <li class="media">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object" src="./images/icons/6_2.svg" alt="icon of a graduation hat" style="width:120px" /></p>
                     <div class="media-body">
                         <p>Reaching more people more efficiently to drive better access to post-secondary education among low-income families. For example, <a href="#!">working with ServiceOntario to bundle RESP sign-ups</a>.</p>
                     </div>
                 </li>
-                <li class="media"> <a class="pull-left" href="#"><img class="media-object" src="./images/icons/6_3.svg" alt="icon of a hand with a dollar sign above it" style="width:120px" /></a>
+                <li class="media">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object" src="./images/icons/6_3.svg" alt="icon of a hand with a dollar sign above it" style="width:120px" /></p>
                     <div class="media-body">
                         <p>Helping to understand what works by using research-based impact evaluations to generate evidence of which interventions are effective, and what elements could be further tested and scaled to replicate successful efforts and wind down less effective programs. For example, <a href="#!">stemming the decline in charitable giving among Canadians by leveraging behavioural insights and experimentation</a>.</p>
                     </div>
                 </li>
-                <li class="media"> <a class="pull-left" href="#"><img class="media-object" src="./images/icons/6_4.svg" alt="icon of a pill bottle" style="width:120px" /></a>
+                <li class="media">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object" src="./images/icons/6_4.svg" alt="icon of a pill bottle" style="width:120px" /></p>
                     <div class="media-body">
                         <p>Attracting non-traditional government partners from diverse sectors, including the private sector, who are bringing forward fresh perspectives and innovative approaches to address complex public policy issues. For example, supporting Health Canada’s “<a href="#!">Drug Checking Technology Challenge</a>".</p>
                     </div>
                 </li>
-                <li class="media"> <a class="pull-left" href="#"><img class="media-object" src="./images/icons/6_5.svg" alt="icon of a lightbulb with a dollar sign inside it" style="width:120px" /></a>
+                <li class="media">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object" src="./images/icons/6_5.svg" alt="icon of a lightbulb with a dollar sign inside it" style="width:120px" /></p>
                     <div class="media-body">
                         Leveraging innovative financing approaches to harness private sector resources to help meet common goals, make government a better partner, and shift the focus away from paying for process to paying for success. For example, <a href="#!">exploring pay-for-success financing approaches with Health Canada</a>.
                     </div>
                 </li>
-                <li class="media"> <a class="pull-left" href="#"><img class="media-object" src="./images/icons/6_6.svg" alt="icon of a growing graph" style="width:120px" /></a>
+                <li class="media">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object" src="./images/icons/6_6.svg" alt="icon of a growing graph" style="width:120px" /></p>
                     <div class="media-body">
                         Contributing to international generation of best practices by developing and publishing knowledge products and feeding into efforts of leading organizations around the world, which is resulting in international acknowledgement of the IIU’s contribution to the innovation ecosystem. For example, <a href="#!">Measuring Impact By Design – a Guide to Methods for Impact Measurement.</a>.
                     </div>
@@ -210,14 +258,15 @@
 
         </section>
 
-        <section id="aboutUs">
+        <!-- 1. About Us section -->
+        <section>
             <div class="row">
                 <div class="col-sm-6">
-                    <h2>About</h2>
+                    <h2 id="aboutUs">1. About Us</h2>
                     <p>Since its launch in 2017, the Impact and Innovation Unit (IIU) has remained focused on working with federal departments, other levels of government, and external partners to support the implementation of inventive programs and services designed to improve social, economic, and environmental outcomes for citizens. In particular, the IIU focuses on improving outcomes for citizens by using a set of innovative approaches designed to achieve greater public value in program and service delivery. The IIU seeks to engage a diverse range of actors to help solve societal problems, focus on initiatives/experiments that lend themselves to measuring impact in a rigorous way, and strive to maintain high standards and validity in applying these instruments. The principal approaches that the IIU uses to support Government of Canada departments are challenge prizes, pay-for-success funding models, and behavioural insights.</p>
                 </div>
                 <div class="col-sm-6">
-                    <h3>Did you know?</h3>
+                    <h3 class="mrgn-tp-xl">Did you know?</h3>
                     <p>The Impact and Innovation Unit supports its partners with the following key resources:</p>
                     <ul>
                         <li>A flexible, whole-of-government set of Terms and Conditions for Grants and Contributions that allow funding to be linked to outcomes achieved (challenge prizes, pay-for-success), as well as funding rigorous, research-based evaluations</li>
@@ -229,34 +278,36 @@
                 </div>
             </div>
 
-            <div class="row" id="iiu">
-                <div class="col-sm-12">
-                    <h2>The Impact and Innovation Unit</h2>
-                    <p>The IIU is staffed by a highly skilled, interdisciplinary team with decades of combined experience in policy/program development and management, outcomes-based funding, evaluation, partnership brokering, and behavioural insights.</p>
-                </div>
+            <h3 id="iiu">1.1 The Impact and Innovation Unit</h3>
+            <img class="img-responsive mrgn-bttm-lg mrgn-tp-lg" alt="Aerial view of Library of Parliament" src="images/3_twittest_-02.png">
+            <p>The IIU is staffed by a highly skilled, interdisciplinary team with decades of combined experience in policy/program development and management, outcomes-based
                 <div class="row">
                     <div class="col-sm-6">
                         <ul class="media-list">
-                            <h3>Leadership</h3>
-                            <li class="media"> <a class="pull-left" href="#!"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns/colpar-1/mwsadaptiveimage/image.img.jpg/1529676044944.jpg" alt="Headshot of Rodney Ghali" style="width:120px;" /></a>
+                            <h4 class="mrgn-bttm-lg">Leadership</h4>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns/colpar-1/mwsadaptiveimage/image.img.jpg/1529676044944.jpg" alt="Headshot of Rodney Ghali" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Rodney Ghali</h5>
                                     <p>Assistant Secretary to the Cabinet</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1155469707/colpar-1/mwsadaptiveimage/image.img.jpg/1529676025621.jpg" alt="Headshot of Chad Hartnell" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1155469707/colpar-1/mwsadaptiveimage/image.img.jpg/1529676025621.jpg" alt="Headshot of Chad Hartnell" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Chad Hartnell</h5>
                                     <p>Director of Operations</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_346201107/colpar-1/mwsadaptiveimage/image.img.jpg/1504217709530.jpg" alt="Headshot of Saskia Jarvis" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_346201107/colpar-1/mwsadaptiveimage/image.img.jpg/1504217709530.jpg" alt="Headshot of Saskia Jarvis" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Saskia Jarvis</h5>
                                     <p>Senior Advisor, Operations</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_424789870/colpar-1/mwsadaptiveimage/image.img.jpg/1529675988973.jpg" alt="Headshot of Jessica Ly" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_424789870/colpar-1/mwsadaptiveimage/image.img.jpg/1529675988973.jpg" alt="Headshot of Jessica Ly" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Jessica Ly</h5>
                                     <p>Executive Assistant to the Assistant Secretary</p>
@@ -266,21 +317,24 @@
 
                     </div>
                     <div class="col-sm-6">
-                        <h3>Policy and Innovative Finance</h3>
+                        <h4 class="mrgn-bttm-lg">Policy and Innovative Finance</h4>
                         <ul class="media-list">
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_628292654/colpar-1/mwsadaptiveimage/image.img.jpg/1504217695290.jpg" alt="Headshot of David Donovan" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_628292654/colpar-1/mwsadaptiveimage/image.img.jpg/1504217695290.jpg" alt="Headshot of David Donovan" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">David Donovan</h5>
                                     <p>Lead</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1831407098/colpar-1/mwsadaptiveimage/image.img.jpg/1510774266846.jpg" alt="Headshot of Kristalyn Laryea" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1831407098/colpar-1/mwsadaptiveimage/image.img.jpg/1510774266846.jpg" alt="Headshot of Kristalyn Laryea" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Kristalyn Laryea</h5>
                                     <p>Senior Advisor</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_103445618_297942911/colpar-1/mwsadaptiveimage/image.img.jpg/1556200974073.jpg" alt="Headshot of Katharina Wolff" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_103445618_297942911/colpar-1/mwsadaptiveimage/image.img.jpg/1556200974073.jpg" alt="Headshot of Katharina Wolff" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Katharina Wolff</h5>
                                     <p>Senior Advisor</p>
@@ -289,24 +343,26 @@
                         </ul>
                     </div>
                 </div>
-
                 <div class="row">
                     <div class="col-sm-6">
-                        <h3>Behavioural Insights</h3>
+                        <h4 class="mrgn-bttm-lg">Behavioural Insights</h4>
                         <ul class="media-list">
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_763639118/colpar-1/mwsadaptiveimage/image.img.jpg/1504217711321.jpg" alt="Headshot of Elizabeth Hardy" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_763639118/colpar-1/mwsadaptiveimage/image.img.jpg/1504217711321.jpg" alt="Headshot of Elizabeth Hardy" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Elizabeth Hardy</h5>
                                     <p>Senior Lead</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1188501285/colpar-1/mwsadaptiveimage/image.img.jpg/1529676037371.jpg" alt="Headshot of Haris Khan" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1188501285/colpar-1/mwsadaptiveimage/image.img.jpg/1529676037371.jpg" alt="Headshot of Haris Khan" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Haris Khan</h5>
                                     <p>Advisor</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1034456180/colpar-1/mwsadaptiveimage/image.img.jpg/1550248488155.jpg" alt="Headshot of Alyssa Whalen" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_1034456180/colpar-1/mwsadaptiveimage/image.img.jpg/1550248488155.jpg" alt="Headshot of Alyssa Whalen" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Alyssa Whalen</h5>
                                     <p>Advisor</p>
@@ -315,27 +371,31 @@
                         </ul>
                     </div>
                     <div class="col-sm-6">
-                        <h3>Public Engagement</h3>
+                        <h4 class="mrgn-bttm-lg">Public Engagement</h4>
                         <ul class="media-list">
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_103445618/colpar-1/mwsadaptiveimage/image.img.jpg/1550254945583.jpg" alt="Headshot of Dr. Michael Haber" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_103445618/colpar-1/mwsadaptiveimage/image.img.jpg/1550254945583.jpg" alt="Headshot of Dr. Michael Haber" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Dr. Michael Haber</h5>
                                     <p>Lead</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_338654666/colpar-1/mwsadaptiveimage/image.img.jpg/1558033895600.jpg" alt="Headshot of Laurie Bennett" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_338654666/colpar-1/mwsadaptiveimage/image.img.jpg/1558033895600.jpg" alt="Headshot of Laurie Bennett" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Laurie Bennett</h5>
                                     <p>Multimedia Communications Officer</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_2134352222/colpar-1/mwsadaptiveimage/image.img.jpg/1529676014377.jpg" alt="Headshot of Sarah MacMaster" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_2134352222/colpar-1/mwsadaptiveimage/image.img.jpg/1529676014377.jpg" alt="Headshot of Sarah MacMaster" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Sarah MacMaster</h5>
                                     <p>Junior Advisor</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_450096512/colpar-1/mwsadaptiveimage/image.img.jpg/1527865016828.jpg" alt="Headshot of Chris Soueidan" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_450096512/colpar-1/mwsadaptiveimage/image.img.jpg/1527865016828.jpg" alt="Headshot of Chris Soueidan" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Chris Soueidan</h5>
                                     <p>Visual Designer</p>
@@ -346,21 +406,24 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                         <h3>Capacity and Partnerships</h3>
+                        <h4 class="mrgn-bttm-lg">Capacity and Partnerships</h4>
                         <ul class="media-list">
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_857432988/colpar-1/mwsadaptiveimage/image.img.jpg/1527864694336.jpg" alt="Headshot of Julie Greene" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_857432988/colpar-1/mwsadaptiveimage/image.img.jpg/1527864694336.jpg" alt="Headshot of Julie Greene" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Julie Greene</h5>
                                     <p>Lead</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_503338316/colpar-1/mwsadaptiveimage/image.img.jpg/1510774078624.jpg" alt="Headshot of Craig Joyce" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_503338316/colpar-1/mwsadaptiveimage/image.img.jpg/1510774078624.jpg" alt="Headshot of Craig Joyce" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Craig Joyce</h5>
                                     <p>Senior Advisor, Methods</p>
                                 </div>
                             </li>
-                            <li class="media"> <a class="pull-left" href="#"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_2051881486/colpar-1/mwsadaptiveimage/image.img.jpg/1504217703051.jpg" alt="Headshot of Janelle Lanoix" style="width:120px;" /></a>
+                            <li class="media">
+                                <p class="pull-left"><img class="media-object img-rounded" src="https://www.canada.ca/content/canadasite/en/innovation-hub/services/about-us/_jcr_content/par/mwscolumns_2051881486/colpar-1/mwsadaptiveimage/image.img.jpg/1504217703051.jpg" alt="Headshot of Janelle Lanoix" style="width:120px;" /></p>
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Janelle Lanoix</h5>
                                     <p>Senior Advisor</p>
@@ -369,8 +432,8 @@
                         </ul>
                     </div>
                     <div class="col-sm-6">
-                        <h3>Impact Canada Fellowship Program</h3>
-                         <ul class="media-list">
+                        <h4 class="mrgn-bttm-lg">Impact Canada Fellowship Program</h4>
+                        <ul class="media-list">
                             <li class="media">
                                 <div class="media-body">
                                     <h5 class="mrgn-bttm-0">Valérie Anglehart</h5>
@@ -380,12 +443,359 @@
                         </ul>
                     </div>
                 </div>
-            </div>
-            
-            <div class="row" id="fellowship">
-                <h2>The Fellowship Program</h2>
+
+                <h3 id="fellowship">1.2 The Fellowship Program</h3>
                 <p>As part of the IIU’s mission to foster innovation in the public service, the Impact Canada Fellowship program recruits subject-matter experts into the public service in support of its work under Impact Canada, as well as the government’s broader efforts to accelerate the use of novel outcomes-based program approaches. The program aims to attract talent and build capacity in five key business lines:</p>
+                <ul class="media-list mrgn-tp-xl">
+                    <li class="media">
+                        <p class="pull-left"><img class="media-object mrgn-rght-lg" src="./images/icons/9_1.svg" style="width:120px;" alt="icon of side of head with brain" /></p>
+                        <div class="media-body">
+                            <p><strong>Behavioural Insights</strong>(BI) applies the findings of psychology, economics, and other social sciences to the work of government. Practitioners of BI commonly test these insights using rigorous experimental methodologies to understand what works in driving better public policy outcomes for Canadians.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <p class="pull-left"><img class="media-object mrgn-rght-lg" src="./images/icons/9_2.svg" style="width:120px;" alt="icon of hand with dollar sign above it" /></p>
+                        <div class="media-body">
+                            <p><strong>Innovative Finance</strong> (IF) is the strategic blending of public, private, philanthropic, and not-for-profit capital and resources to achieve positive economic, social, and/or environmental outcomes. This includes the use of pay-for-success instruments, where payments are contingent on funding recipients achieving outcomes that can improve the lives of Canadians (e.g., impact bonds, challenge prizes).</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <p class="pull-left"><img class="media-object mrgn-rght-lg" src="./images/icons/9_3.svg" style="width:120px;" alt="icon of graph growing" /></p>
+                        <div class="media-body">
+                            <p><strong>Impact Measurement</strong> (IM) can include a range of experimental (randomized controlled trials) and quasi-experimental methods. It‘s the process of using scientific methodology to determine outcomes achieved by a program. It allows for the attribution of changes in social, economic, and/or environmental outcomes.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <p class="pull-left"><img class="media-object mrgn-rght-lg" src="./images/icons/9_4.svg" style="width:120px;" alt="icon of prize ribbon" /></p>
+                        <div class="media-body">
+                            <p><strong>Challenge Prize</strong> refers to an incentive-based approach that rewards the first or best solution to a specific problem, based on a set of pre-determined criteria. The goal is not only to seek out the best ideas and solutions, but also to ensure that these innovative funding models demonstrate that tangible and measureable results can be achieved for Canadians.</p>
+                        </div>
+                    </li>
+                    <li class="media">
+                        <p class="pull-left"><img class="media-object mrgn-rght-lg" src="./images/icons/9_5.svg" style="width:120px;" alt="icon of pie chart" /></p>
+                        <div class="media-body">
+                            <p><strong>Data Science</strong> is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from big data sources, in various forms.</p>
+                        </div>
+                    </li>
+                </ul>
+                <p>Since last year’s launch, five recruitment processes have been completed. The current Fellowship cohort is comprised of seven BI Fellows, three IF Fellows, and three IM Fellows working across nine departments. We’re also looking to expand the program to other levels of government and discussions for placement opportunities with provincial, territorial and municipal levels of government are underway. Find details of the Fellows‘ work/projects <a href="#!">here</a>.</p>
+
+                <div class="box-42">
+                    <div class="row">
+                        <div class="col-sm-2">
+                            <img class="img-responsive" src="./images/icons/10_1.svg" alt="calendar icon with 42 days written inside" style="max-width:120px;margin:auto auto 1em;">
+                        </div>
+                        <div class="col-sm-10">
+                            <p>The Fellowship program is resulting in efficiencies
+                                for external recruitment in the federal public
+                                service. On average it takes the federal public
+                                service 197 days to hire a new employee using
+                                an external advertised competitive process. The
+                                Fellowship program‘s average is 90 days. Our
+                                most efficient process was run in only 42 days.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <h4>Our Fellows:</h4>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h5>Behavioural Insights</h5>
+                        <ul class="list-unstyled">
+                            <li>Dr. Guillaume Beaulac</li>
+                            <li>Dr. Lauryn Conway</li>
+                            <li>Dr. Amanda Desnoyers</li>
+                            <li>Michael Hewlett</li>
+                            <li>Dr. Kyle Hubbard</li>
+                            <li>Dr. Meera Paleja</li>
+                            <li>Dr. Dhawal Selarka</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5>Innovative Finance</h5>
+                        <ul class="list-unstyled">
+                            <li>Sophie Méchin</li>
+                            <li>Stefan Pagura</li>
+                            <li>Matthias Pries</li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-4">
+                        <h5>Impact Measurement</h5>
+                        <ul class="list-unstyled">
+                            <li>Lauren Dodds</li>
+                            <li>Dr. Gabriel Rompré</li>
+                            <li>Anna Vanderkooy</li>
+                        </ul>
+                    </div>
+                </div>
+                <blockquote class="mrgn-tp-xl">
+                    <p class="lead h3 mrgn-tp-0">"The Fellowship program, sponsored by the Impact and Innovation Unit
+                        at the Privy Council Office, allows us to further experiment with ways to
+                        bring in important new skills."</p>
+                    <small>- Clerk of the Privy Council, 26th Annual Report to the Prime Minister</small>
+                </blockquote>
+
+                <h3 id="advisoryCommittee">1.3 The Advisory Committee</h3>
+                <figure>
+                    <img class="img-responsive mrgn-tp-lg" alt="portraits of the Impact Canada Advisory Committee" src="images/4_advisory-committee-group.png">
+                    <figcaption>The Impact Canada Advisory Committee. Top: Ilse Treurnicht, Andrea Barrack, Valerie Chort, Sir Ronald Cohen, Joan Larrea Middle: Saadia Madsbjerg, David Martin, Jaykumar Menon, Hector Mujica, Tracy P. Palandjiann Bottom: Claude Pinard, Irfhan Rawji, Dilip Soman, Tamara Vrooman, Bill Young</figcaption>
+                </figure>
+                <p>Meeting a commitment made by the IIU in last year’s annual report, the IIU organized the first meeting of the Impact Canada Advisory Committee in November 2018.</p>
+                <p>Chaired by Ilse Treurnicht, the Committee brings together a distinguished group of senior leaders from the private, philanthropic, not-for-profit, and academic sectors. Its mandate is to provide advice to the IIU on emerging trends and best practices to inform how public programs could enhance their impact through the use of innovative funding approaches (such as challenge prizes, pay-for-success structures, and impact investing), behavioural insights, and rigorous measurement and evaluation techniques.</p>
+                <p>Drawing from both Canadian and international experiences and lessons learned, the Committee is helping the IIU identify its unique role in the global innovation ecosystem. Closer to home, the Committee also continues to play a critical role in the development of a strategic plan that will guide future work and identify trends that the IIU can take into consideration as it continues to work to support departments across the Government of Canada.</p>
+        </section>
+
+        <!-- 2. What We Do section -->
+        <section>
+            <h2 id="whatWeDo">2. What We Do</h2>
+            <p>The IIU works with a broad range of partners to support federal departments in delivering on policies and programs that matter to Canadians. With a focus on results-driven approaches, the IIU is working hard to transform the way in which government works.</p>
+            <div class="row">
+                <div class="col-sm-12">
+                    <section class="panel panel-default">
+                        <header class="panel-heading">
+                            <h3 class="panel-title">Methodological Approaches to Innovation</h3>
+                        </header>
+                        <div class="panel-body">
+                            <img style="float: left;width:80px;margin:0 1em" src="images/icons/12_1.svg" alt="icon of clipboard with a checkmark">
+                            <p>With its focus on federal programming and service delivery, the IIU works to identify, test, and scale inventive tools and methods that help to introduce an outcomes focus. Using innovative, methodological approaches, the IIU has demonstrated that innovation can, in fact, be carried out in a rigorous way and that the results of these actions can be defined, measured, and evaluated.</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-12">
+                    <section class="panel panel-default">
+                        <header class="panel-heading">
+                            <h3 class="panel-title">Relentless Focus on Implementation</h3>
+                        </header>
+                        <div class="panel-body">
+                            <img style="float: left;width:120px;margin:0 1em" src="images/icons/12_2.svg" alt="icon of refresh">
+                            <p>With a focus on “the how”, the IIU supports federal departments and other partners to build agile, results-driven approaches that work for Canadians. Anchored by its Impact Canada Centre of Expertise, the IIU provides advice and guidance on the application of challenge prizes, pay-for-success approaches, and behavioural insights into federal programs and services. It also provides access to key resources that support departments to work with these innovative methods, including a flexible set of terms and conditions for grants and contributions and a prominent, centralized website supported by in-house visual and graphic design experts. The IIU offers a service model that can be tailored based on factors including the needs of the partner department</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-12">
+                    <section class="panel panel-default">
+                        <header class="panel-heading">
+                            <h3 class="panel-title">Achieving Impact at Scale</h3>
+                        </header>
+                        <div class="panel-body">
+                            <img style="float: left;width:120px;margin:0 1em" src="images/icons/13_1.svg" alt="icon of a stack of polygons">
+                            <p>From its unique vantage point in the Privy Council Office, the IIU works across departmental mandates to measure impact, identify success factors for implementation, and determine what works in the federal context. It also draws on the experiences of other governments, non-profit, and private sector organizations in implementing similar approaches. Collectively, these actions are growing our understanding of how best to apply these approaches while factoring in operational context, organizational strengths and limitations, as well as the broader policy priorities of the Government of Canada. Further, the IIU’s support of key senior level committees is ensuring that these actions are being considered and informed by public sector executives, as well as external thought leaders and experts.</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-12">
+                    <section class="panel panel-default">
+                        <header class="panel-heading">
+                            <h3 class="panel-title">Systems-Level Transformation through Leadership and Strategy</h3>
+                        </header>
+                        <div class="panel-body">
+                            <img style="float: left;width:120px;margin:0 1em" src="images/icons/13_2.svg" alt="icon of a stack of polygons">
+                            <p>The IIU remains focused on enabling systems-level change, including experimenting with and testing innovative approaches through its ongoing support of the Deputy Ministers Task Force on Public Sector Innovation and co-chairing the Assistant Deputy Minister Committee on Experimentation.</p>
+                        </div>
+                    </section>
+                </div>
             </div>
+            <h3>Deputy Ministers Task Force on Public Sector Innovation.</h3>
+            <p>It has been one year since the Task Force received its new mandate from the Clerk of the Privy Council focused on two areas: (1) Facilitating core systems transformation, and (2) Experimenting with disruptive technologies.</p>
+            <p>Highlights from this past year include:</p>
+            <div class="row text-center mrgn-tp-xl">
+                <div class="col-sm-6 mrgn-bttm-lg">
+                    <img class="mrgn-bttm-lg" style="width:100px" src="images/icons/14_1.svg" alt="icon of right turn sign">
+                    <p>Informing an enabling framework document, A Data Strategy Roadmap for the Government of Canada, which launched on November 23, 2018. Its purpose is to help ensure a coordinated, whole of government approach to how the government can use data more strategically to unlock more value and deliver improved outcomes for Canadians.</p>
+                </div>
+                <div class="col-sm-6 mrgn-bttm-lg">
+                    <img class="mrgn-bttm-lg" style="width:80px" src="images/icons/14_2.svg" alt="icon of a prize ribbon">
+                    <p>Advancing the use of outcomes-based programming approaches (e.g., challenge-based approaches, pay-for-success initiatives) by shaping two distinct strategies for how outcomes-based programming approaches could be pursued: (1) the Treasury Board Secretariat (TBS) Generic Terms and Conditions, and (2) Impact Canada.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-sm-6 mrgn-bttm-lg">
+                    <img class="mrgn-bttm-lg" style="width:120px" src="images/icons/14_3.svg" alt="icon of a robot head">
+                    <p>Engaging with experts on some of the key policy issues that drive public sector innovation, including using Artificial Intelligence to make operations as effective and efficient as possible, and using co-creation and partnership development approaches to understand how governments can engage all sectors of society to leverage resources and expertise to help address complex societal problems.</p>
+                </div>
+                <div class="col-sm-6 mrgn-bttm-lg">
+                    <img class="mrgn-bttm-lg" style="width:80px" src="images/icons/14_4.svg" alt="icon of a clipboard">
+                    <p>Guiding an in-depth stock take discussion on the experimentation mandate commitment to identify and address barriers to implementation.</p>
+                </div>
+            </div>
+            <blockquote>
+                <p class="lead h3 mrgn-tp-0">“While we have made progress over this first year, we are only beginning to unlock the potential of public servants to mainstream innovation in our programs, policies and operations. We look forward to increasing our tempo of progress in the coming year.”</p>
+                <small>Co-chairs Graham Flack, Deputy Minister, Employment and Social Development &amp; Matthew Mendelsohn, Deputy Secretary to the Cabinet, Results and Delivery, Privy Council Office</small>
+            </blockquote>
+            <div class="row text-center">
+                <div class="col-sm-6 mrgn-bttm-lg">
+                    <img class="mrgn-bttm-lg" style="width:120px" src="images/icons/15_1.svg" alt="icon of GCE logo">
+                    <h4>Government of Canada Entrepreneurs</h4>
+                    <p>To help achieve the Task Force on Public Sector Innovation’s mandate, Deputy Minister members recruited a cohort of 18 talented public servants known as Government of Canada Entrepreneurs (GCEs), who are full members of the Task Force. The creation of the GCEs themselves is an example of important efforts to upskill the federal public service and build the capacity required to support experimental programming.</p>
+                    <p>Working in small, diverse teams across departmental lines, the GCEs are experimenting with new ways of advancing projects that do not have a natural home within a specific department or agency. Their role as ambassadors for innovation is raising awareness and inspiring public servants to apply new tools and approaches to their work. As an added benefit, the GCEs receive leadership training and support from Nesta’s States of Change, a public sector innovation learning approach designed to strengthen innovation capacity across governments.</p>
+                </div>
+                <div class="col-sm-6 mrgn-bttm-lg">
+                    <img class="mrgn-bttm-lg" style="width:80px" src="images/icons/15_2.svg" alt="icon of science becher">
+                    <h4>Assistant Deputy Ministers’ Committee on Experimentation</h4>
+                    <p>As a co-chair of the Assistant Deputy Minister Committee on Experimentation with the Treasury Board Secretariat, the IIU has helped lead work to accelerate, deepen, and institutionalize experimentation and innovation across the Government of Canada. In the past year, the Committee has conducted a series of research initiatives to identify areas in which action is needed to encourage experimentation in government, and generated proposals to address those areas.</p>
+                </div>
+            </div>
+            <blockquote>
+                <p class="lead h3 mrgn-tp-0">“Public servants are seeking clear signals that it’s okay to take risks. Innovating in the public service is hard work, and for those at the working level, it is even more so. For public sector innovation to thrive and grow, our workforce needs the support and the tools to challenge the status quo.”</p>
+                <small>Minh On and Laura Portal Avelar, Mission Managers of the first GCE Cohort</small>
+            </blockquote>
+
+            <figure>
+                <a href="./images/timline-rapid-growth-impact-canada.jpg" target="_blank"><img class="img-responsive img-rounded" src="./images/timline-rapid-growth-impact-canada.jpg" alt="exponential graphic showing Impact Canada's rapid growth since 2017 to its current state"></a>
+                <ul class="list-unstyled mrgn-tp-md">
+                    <li>
+                        <details>
+                            <summary>Rapid Growth Graph Description</summary>
+                            Impact Canada: Since its launch in 2017, Impact Canada has experienced rapid growth. Impact Canada went through a design phase in 2017, a building phase in 2018 and it is currently looking ahead in 2019 towards the growth phase. Budget 2019 announced $300 Million for Housing Supply Challenge with INFC and CMHC, $20 Million for Food Waste Reduction Challenge with AAFC, Outcomes-based initiatives to address Food Security with AAFC and CanNor under Canada’s proposed new Food Policy and Outcomes-based initiatives as part of the new Anti-Racism Strategy with Canadian Heritage.
+                        </details>
+                    </li>
+                </ul>
+
+            </figure>
+        </section>
+
+        <!-- 3. New Approaches to Big Issues -->
+        <section>
+            <h2 id="newApproaches">3. New Approaches to Big Issues</h2>
+            <p>The IIU supports federal departments to apply outcomes-based funding models such as challenge prizes, use behavioural insights to improve policies and services, and integrate impact measurement into the implementation of projects and programs to achieve better and measurable outcomes.</p>
+            <h3 id="payingForSuccess">3.1 Paying for Success</h3>
+            <p>Outcomes-based funding models can take a variety of forms, including challenge prizes and pay-for-success contracts. In the past year, the IIU has continued to help departments develop innovative funding opportunities that bring together the best ideas and brightest talent, and reward those organizations and individuals that deliver high impact results for Canadians.</p>
+            <p>The IIU promotes partnerships with a diverse set of stakeholders. Want to solve a problem or sponsor a prize? <a href="mailto:iiu-uii@pco-bcp.gc.ca">Get in touch</a>.</p>
+            <div class="box-42">
+                <div class="row">
+                    <div class="col-sm-2">
+                        <img class="img-responsive mrgn-bttm-md" alt="icon of prize ribbon" src="./images/icons/18_1.svg" style="max-width:120px">
+                    </div>
+                    <div class="col-sm-10">
+                        <p>Challenge Prizes offer funding and other resources to help innovators put their ideas into action. They are an example of an open innovation approach which focuses resources on the desired outcome, not on cumbersome processes.</p>
+                    </div>
+                </div>
+            </div>
+            <h4 id="flagship">Flagship Challenge Prizes</h4>
+            <p>Two signature program streams were launched as part of Impact Canada in 2017:</p>
+            <div class="row mrgn-tp-lg">
+                <div class="col-sm-6">
+                    <img class="img-responsive img-rounded" src="./images/7_flagship-smart-cities.jpg" alt="photo of corner of a building from a low perspective">
+                    <h5 class="h2">A. Smart Cities Challenge</h5>
+                    <p>Smart Cities Challenge to help
+                        communities of all sizes improve the lives
+                        of their residents through innovation, data
+                        and connected technology. Delivered by
+                        Infrastructure Canada and contributing
+                        $300M in funding over 11 years.</p>
+                </div>
+                <div class="col-sm-6">
+                    <img class="img-responsive img-rounded" src="./images/8_flagship-cleantech.jpg" alt="photo of several wind turbines in a field">
+                    <h5 class="h2">B. Cleantech Challenges</h5>
+                    <p>Cleantech Challenges to drive new solutions in discrete areas. Delivered by Natural Resources Canada and contributing $75 million in funding over four years.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 1. Challenge: Smart Cities -->
+        <section>
+            <h3>1. Smart Cities Challenge</h3>
+            <img class="img-responsive mrgn-tp-lg mrgn-bttm-lg" src="./images/11_smart-cities-logo.jpg" alt="Smart Cities Challenge Banner">
+            <p>The Smart Cities Challenge is a pan-Canadian competition that was open to communities of all sizes, including municipalities, regional governments and Indigenous communities (First Nations, Métis and Inuit). The Challenge encouraged communities to adopt a smart cities approach to improve the lives of their residents through innovation, data and connected technology.</p>
+            <p>The application process closed on April 24, 2018, receiving 130 eligible applications from communities across Canada. Twenty of those applications moved on to the finalist stage of the competition, each receiving $250,000 to help them develop their final proposal.</p>
+            <div class="row mrgn-tp-lg">
+                <div class="col-sm-6">
+                    <img class="img-responsive img-rounded" src="/images/10_smart-cities-image.jpg" alt="people walking on the streets of an urban area">
+                </div>
+                <div class="col-sm-6">
+                    <ul>
+                        <li>130 applications received</li>
+                        <li>20 applications (joint or individual) from Indigenous communities</li>
+                        <li>The largest applicant had 2.7 million residents</li>
+                        <li>The smallest applicant had 185 residents</li>
+                        <li>100% of finalists developed partnerships with at least four different sectors: private, not-for-profit, academic sectors, public utilities and community organizations</li>
+                        <li>Every province and territory was represented</li>
+                    </ul>
+
+                </div>
+                <div class="col-sm-12 mrgn-tp-lg">
+                    <blockquote>
+                        <p class="lead h3 mrgn-tp-0">"We appreciated that it was left wide open for communities to choose what was important to them. It spurred a lot of collaboration and conversation across the country."</p>
+                        <small>Applicant</small>
+                    </blockquote>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <h4 class="mrgn-tp-xl mrgn-bttm-lg">Round 1 Winners</h4>
+                    <ul class="list-inline">
+                        <li><img src="./images/icons/21_1.svg" alt="$5M Priz Winner" style="width:100px;">
+                            <p class="h6">Town of Bridgewater, <br>Nova Scotia</p>
+                        </li>
+                        <li><img src="./images/icons/21_2.svg" alt="$10M Priz Winner" style="width:130px;">
+                            <p class="h6">Nunavut Communities,<br>Nunavut</p>
+                        </li>
+                        <li><img src="./images/icons/21_3.svg" alt="$10M Priz Winner" style="width:130px;">
+                            <p class="h6">City of Guelph and Wellington County,<br> Ontario</p>
+                        </li>
+                        <li><img src="./images/icons/21_4.svg" alt="$50M Priz Winner" style="width:160px;">
+                            <p class="h6">City of Montréal, <br> Québec</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Challenge: Advancing Cleantech Solutions -->
+        <section>
+            <h3>2. Advancing Cleantech Solutions</h3>
+            <p>The IIU has supported Natural Resources Canada in investing $75M over four years in a series of clean technology challenges to unlock breakthrough cleantech solutions to complex and persistent barriers in discrete areas.</p>
+            <p class="lead h2">Spotlight</p>
+            <h4>Women in Cleantech Challenge</h4>
+            <p>Launched in collaboration with MaRS Discovery District, this challenge prize supports the representation of women in the cleantech sector. Following a national call and expert selection process, the Women in Cleantech Challenge identified six women to participate in an intensive three-year program, during which they are provided with business advice, and the technical and financial support they need to grow and succeed as cleantech entrepreneurs, including unprecedented access to federal labs and researchers. At the end of the program, the most promising project will receive a $1 million grand prize.</p>
+            <p>The jury had planned to name five finalists, but included six because of the high-calibre of ideas presented.</p>
+            <ul class="media-list mrgn-tp-lg">
+                <li class="media mrgn-bttm-md">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object img-rounded" src="./images/12_women-clean-A.jpg" alt="Headshot of Amanda Hall" style="width:180px;" /></p>
+                    <div class="media-body">
+                        <h5 class="">Amanda Hall / Summit Nanotech</h5>
+                        <p>"Being chosen as a finalist in the Women in Cleantech Challenge early on really helped put wheels to the company, opened doors and exposed us to great opportunities. I hope this doesn’t sound bold, but it just feels like we are unstoppable right now."</p>
+                    </div>
+                </li>
+                <li class="media mrgn-bttm-md">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object img-rounded" src="./images/12_women-clean-B.jpg" alt="Headshot of Luna Yu" style="width:180px;" /></p>
+                    <div class="media-body">
+                        <h5 class="">Luna Yu / Genecis</h5>
+                        <p>"Having been through accelerator programs before, the sheer amount of resources made accessible through this [Women in Cleantech] program genuinely shocked my team and I — dedicated staff, experienced and multi-disciplinary advisors, access to NRCan Labs, quarterly stipend and training programs are all within reach."</p>
+                    </div>
+                </li>
+                <li class="media mrgn-bttm-md">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object img-rounded" src="./images/12_women-clean-C.jpg" alt="Headshot of Alexandra  Tavasoli" style="width:180px;" /></p>
+                    <div class="media-body">
+                        <h5 class="">Alexandra  Tavasoli</h5>
+                        <p>"I think it’s really important for the next generation of females entering engineering to see women actually doing the technologies that they hope to one day be part of."</p>
+                    </div>
+                </li>
+                <li class="media mrgn-bttm-md">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object img-rounded" src="./images/12_women-clean-D.jpg" alt="Headshot of Julie Angus / Open Ocean Robotics" style="width:180px;" /></p>
+                    <div class="media-body">
+                        <h5 class="">Julie Angus / Open Ocean Robotics</h5>
+                        <p>"I’ve been inspired by the five outstanding women who were also selected, met incredible entrepreneurs and mentors at MaRS and taken online courses in customer development and business strategy. (...) It’s been a ton of work, but often it feels more like play than toil, challenging my skills on every level."</p>
+                    </div>
+                </li>
+                <li class="media mrgn-bttm-md">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object img-rounded" src="./images/12_women-clean-E.jpg" alt="Headshot of Evelyn Allen" style="width:180px;" /></p>
+                    <div class="media-body">
+                        <h5 class="">Evelyn Allen</h5>
+                        <p>"In 15 years of working in this industry, I can’t name more than two female entrepreneurs leading cleantech companies. I am so excited to have this opportunity to grow a business with a mission to make a global impact."</p>
+                    </div>
+                </li>
+                                <li class="media mrgn-bttm-md">
+                    <p class="pull-left mrgn-rght-md"><img class="media-object img-rounded" src="./images/12_women-clean-F.jpg" alt="Headshot of Nivatha Balendra" style="width:180px;" /></p>
+                    <div class="media-body">
+                        <h5 class="">Nivatha Balendra</h5>
+                        <p>"I think this challenge was the perfect opportunity in combining promoting women in science, which is something I deeply believe in, as well as developing a cleantech business. It just goes hand-in-hand."</p>
+                    </div>
+                </li>
+            </ul>
+            <blockquote class="mrgn-tp-xl">
+                <img style="width:100px" class="pull-left img-circle mrgn-rght-lg" src="images/13_women_atwood_670.png" src="headshot of Margaret Atwood">
+                <p class="lead h3 mrgn-tp-0">"This initiative can help address the [gender] balance, as well as improve the planet."</p>
+                <small>Margaret Atwood, Challenge Judge</small>
+            </blockquote>
 
         </section>
 
@@ -395,6 +805,7 @@
 
 
         <section>
+            <hr>
             <small>©Her Majesty the Queen in Right of Canada, 2019. All rights reserved. ISBN: XXX-X-XXX-XXXXX-X</small>
         </section>
 
@@ -520,6 +931,4 @@
 		
 		<![endif]-->
     <script src="./GCWeb/js/theme.min.js"></script>
-</body>
-
-</html>
+</body></html>
